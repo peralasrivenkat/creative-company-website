@@ -36,7 +36,7 @@ creative-company-website/
 ├── contact.html # Contact page
 ├── css/
 │ └── styles.css # Styles for the website
-├── js/
+├── js/                                                                                           
 │ └── main.js # JavaScript for interactivity
 ├── images/
 │ └── logo.png # Example image/logo files
