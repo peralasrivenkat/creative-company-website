@@ -45,15 +45,15 @@ This website demonstrates strong front-end development fundamentals, responsive 
 ---
 
 ## 📂 Project Structure
-creative-company-website/
-├── index.html # Main landing page
-├── styles.css # Global styles for the website
+creative-company-website/                                                                                                                                                                                           
+├── index.html # Main landing page                                                                                                                                                                                  
+├── styles.css # Global styles for the website                                                                                                                                                                      
 ├── images/ # Image assets used across pages
-├── sign/
-│ ├── sign_in.html # User sign-in page
-│ ├── sign_up.html # User sign-up page
-│ └── styles.css # Styles for authentication pages
-└── README.md # Project documentation
+├── sign/                                                                                                                                                                                                           
+│ ├── sign_in.html # User sign-in page                                                                                                                                                                              
+│ ├── sign_up.html # User sign-up page                                                                                                                                                                              
+│ └── styles.css # Styles for authentication pages                                                                                                                                                                  
+└── README.md # Project documentation                                                                                                                                                                               
 
 ---
 
