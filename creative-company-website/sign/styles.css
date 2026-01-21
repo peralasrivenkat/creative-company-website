@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #0a0a0a;
+  }
+/* Sign In & Sign Up Styles */
+#signin-container, #signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #80529dc4;
+  }
+  
+  .form-box {
+    background-color: #80529d;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .form-box h1 {
+    margin-bottom: 20px;
+    color: #ff7138;
+  }
+  
+  .form-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #020202;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7138;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-box button:hover {
+    opacity: 0.8;
+  }
+  
+  .form-box p {
+    margin-top: 10px;
+  }
+  
+  .form-box a {
+    color: #ff7138;
+    text-decoration: none;
+  }
+  
+  /************************************
+* HEADER & NAVIGATION
+************************************/
+header {
+    background-color: #80529d;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    }
+    nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    #branding {
+    color: #fff;
+    font-size: 32px;
+    }
+    
+    /* Menu Toggle Button (hidden on desktop) */
+    #menu-toggle {
+    display: none;
+    background-color: #ff7138;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    }
+    #container-1{
+      background-color: #80529d;
+    }
+    /* Menu Container */
+    #menu-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+    
+    /* NAV Menu */
+    #menu {
+    padding-left: 50px;
+    }
+    #menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    }
+    #menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    }
+    
+    /* SIGN-UP BUTTON */
+    #sign-up-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+    #sign-up {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff7138;
+    color: #fff;
+    cursor: pointer;
+    }
+    #sign-up:hover {
+    opacity: 0.8;
+    }
+    

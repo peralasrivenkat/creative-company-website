@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="branding">Mi-Kishan</div>
+      <!-- This toggle button is hidden on desktop and visible on mobile (max-width: 990px) -->
+      
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">Main Menu   ☰</button>
+      <!-- Menu container: holds the navigation list and sign-up area -->
+      <div id="menu-container">
+        <div id="menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <!-- <li><a href="#">Service</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li> -->
+          </ul>
+        </div>
+        <div id="sign-up-area">
+          <a href="./sign_in.html"><button id="sign-up">Sign in</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="signup-container">
+    <div class="form-box">
+      <h1>Sign Up</h1>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        
+        <button type="submit">Sign Up</button>
+        
+        <p>Already have an account? <a href="./sign_in.html">Sign In</a></p>
+      </form>
+    </div>
+  </section>
+  <!-- JavaScript to toggle the mobile menu -->
+  <script>
+    document.getElementById("menu-toggle").addEventListener("click", function() {
+      var menuContainer = document.getElementById("menu-container");
+      if (menuContainer.classList.contains("open")) {
+        menuContainer.classList.remove("open");
+        this.textContent = "Main Menu  ☰";
+      } else {
+        menuContainer.classList.add("open");
+        this.textContent = "Close Menu";
+      }
+    });
+  </script>
+</body>
+</html>
+</body>
+</html>
